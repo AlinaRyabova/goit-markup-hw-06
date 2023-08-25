@@ -25,9 +25,6 @@
 }
 @media screen and (max-width: 767px) {
   .client-list {
-    /* display: flex;
-    flex-wrap: wrap;
-    gap: 72px 24px; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
