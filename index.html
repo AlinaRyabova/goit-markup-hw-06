@@ -18,6 +18,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <header class="header">
@@ -58,6 +59,81 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="mob-menu-open js-open-menu">
+          <svg width="32" height="22" class="menu-open-icon">
+            <use href="./images/icons.svg#icon-menu_burger"></use>
+          </svg>
+        </button>
+        <div class="mob-menu js-menu-container">
+          <div class="mob-modale">
+            <button type="button" class="mob-menu-close js-close-menu">
+              <svg width="24" height="16" class="menu-close-icon">
+                <use href="./images/icons.svg#icon-close-black"></use>
+              </svg>
+            </button>
+            <div class="mob-content">
+              <ul class="mob-navigation-list list">
+                <li class="mob-navigation-link">
+                  <a class="mob-navigation-text link" href="">Studio</a>
+                </li>
+                <li class="mob-navigation-link">
+                  <a class="mob-navigation-text link" href="./portfolio.html"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="mob-navigation-link">
+                  <a class="mob-navigation-text link" href="">Contacts</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mob-content">
+              <ul class="mob-contacts list">
+                <li class="mob-contacts-list">
+                  <a class="mob-contacts-tell link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="mob-contacts-list">
+                  <a
+                    class="mob-contacts-email link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+              <ul class="team-soc-list list">
+                <li class="team-soc-items">
+                  <a href="#" class="team-soc-link link">
+                    <svg width="16" height="16" class="team-soc-icons">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-soc-items">
+                  <a href="#" class="team-soc-link link">
+                    <svg width="16" height="16" class="team-soc-icons">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-soc-items">
+                  <a href="#" class="team-soc-link link">
+                    <svg width="16" height="16" class="team-soc-icons">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-soc-items">
+                  <a href="#" class="team-soc-link link">
+                    <svg width="16" height="16" class="team-soc-icons">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <main class="main">
@@ -161,7 +237,8 @@
           <ul class="team-list list">
             <li class="team-list-img">
               <img
-                src="./images/img_Designer_1.jpg"
+                srcset="./images/img_team1_mobile@2x.jpg"
+                src="./images/img_team1_mobile.jpg"
                 alt="Product Designer"
                 width="264"
                 height="260"
@@ -203,7 +280,8 @@
             </li>
             <li class="team-list-img">
               <img
-                src="./images/img_Frontend_1.jpg"
+                srcset="./images/img_team2_mobile@2x.jpg"
+                src="./images/img_team2_mobile.jpg"
                 alt="Frontend Developer"
                 width="264"
                 height="260"
@@ -245,7 +323,8 @@
             </li>
             <li class="team-list-img">
               <img
-                src="./images/img_Marketing_1.jpg"
+                srcset="./images/img_team3_mobile@2x.jpg"
+                src="./images/img_team3_mobile.jpg"
                 alt="Marketing"
                 width="264"
                 height="260"
@@ -287,7 +366,8 @@
             </li>
             <li class="team-list-img">
               <img
-                src="./images/img_Designer_1.jpg"
+                srcset="./images/img_team4_mobile@2x.jpg"
+                src="./images/img_team4_tablet.jpg"
                 alt="UI Designer"
                 width="264"
                 height="260"
@@ -526,7 +606,7 @@
         </form>
       </div>
     </div>
-
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

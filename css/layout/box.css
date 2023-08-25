@@ -1,0 +1,25 @@
+@media screen and (max-width: 1157px) {
+  .box {
+    display: none;
+  }
+}
+
+.box {
+  padding-bottom: 120px;
+}
+.box-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.045em;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 72px;
+}
+.box-list {
+  display: flex;
+  justify-content: center;
+}
+.box-list-item:not(:last-child) {
+  margin-right: 24px;
+}

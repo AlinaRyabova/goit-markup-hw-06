@@ -1,0 +1,117 @@
+.team {
+  background-color: var(--secondary-link-color);
+  padding: 96px 0;
+}
+@media screen and (min-width: 768px) {
+  .team {
+    padding: 96px 0;
+  }
+}
+@media screen and(min-width: 1158px) {
+  .team {
+    padding: 120px 0;
+  }
+}
+
+.team-headline {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.045em;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 72px;
+}
+.team-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 64px;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .team-list {
+    flex-wrap: nowrap;
+    text-align: center;
+    gap: 24px;
+    align-items: center;
+  }
+}
+
+.team-list-img {
+  background-color: var(--accent-secondary-color);
+  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.025em;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+  text-align: center;
+}
+.team-work {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+  text-align: center;
+  margin-bottom: 8px;
+}
+.content {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--accent-secondary-color);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.team-soc-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.team-soc-items {
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-soc-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--accent-color);
+  color: var(--secondary-link-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: var(--primary-link-color);
+}
+.team-soc-icons {
+  fill: var(--secondary-link-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
