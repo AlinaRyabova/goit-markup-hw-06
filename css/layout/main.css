@@ -46,7 +46,7 @@
       url('../../images/img_hero_tablet@2x.jpg');
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .main-cap {
     max-width: 1440px;
     padding-top: 188px;
