@@ -218,10 +218,7 @@
 .mob-contacts-list:not(:last-child) {
   margin-bottom: 40px;
 }
-.mob-content {
-  margin-top: auto;
-  margin-bottom: 40px;
-}
+
 .mob-contacts-email {
   color: var(--secondary-color);
   font-size: 20px;
